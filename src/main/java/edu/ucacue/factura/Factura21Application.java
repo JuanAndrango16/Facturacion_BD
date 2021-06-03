@@ -20,7 +20,7 @@ public class Factura21Application {
 		.web(WebApplicationType.NONE)
 		.run(args);
 		Principal p = context.getBean(Principal.class);
-		p.insertarPersona();
+		p.GUI();
 	}
 		
 		
